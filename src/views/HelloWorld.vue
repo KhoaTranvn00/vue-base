@@ -1,20 +1,17 @@
 <template>
   <p>Hello {{ name }}</p>
-  <input @keyup.enter="alertName" type="text" v-model="inputValue" /> Hello {{ inputValue }}
-  <button @click="alertName($event, 123)">Alert name</button>
+  <br />
+  <Counter></Counter>
+  <br /><br />
+  <Input></Input>
 </template>
 
 <script setup>
 import { ref } from 'vue'
+import Counter from '../components/hello/Counter.vue'
+import Input from '../components/hello/Input.vue'
 
 const name = 'World'
-const inputValue = ref('initial value')
-console.log({ inputValue, name })
-
-const alertName = (event, param) => {
-  console.log({ event, param })
-  alert(inputValue.value)
-}
 </script>
 
 <style scoped>
