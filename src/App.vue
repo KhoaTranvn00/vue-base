@@ -59,6 +59,7 @@ nav a:first-of-type {
 .wrapper {
   border-right: 1px solid #ccc;
   padding: 0 10px;
+  width: 100px;
 }
 
 .content {
