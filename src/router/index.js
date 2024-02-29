@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import HelloWorld from '../views/HelloWorld.vue'
 import Prop from '../views/Prop.vue'
 import Method from '../views/Method.vue'
+import LifeCycle from '../views/LifeCycle.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +27,11 @@ const router = createRouter({
       path: '/method',
       name: 'method',
       component: Method
+    },
+    {
+      path: '/life-cycle',
+      name: 'lifeCycle',
+      component: LifeCycle
     },
     {
       path: '/about',

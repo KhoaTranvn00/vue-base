@@ -13,6 +13,7 @@ import HelloWorld from './components/HelloWorld.vue'
           <RouterLink to="/hello">Hello</RouterLink>
           <RouterLink to="/prop">Prop</RouterLink>
           <RouterLink to="/method">Method</RouterLink>
+          <RouterLink to="/life-cycle">Life Cycle</RouterLink>
         </nav>
       </div>
     </header>
@@ -32,7 +33,6 @@ import HelloWorld from './components/HelloWorld.vue'
 nav {
   width: 100%;
   font-size: 12px;
-  text-align: center;
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
@@ -62,6 +62,6 @@ nav a:first-of-type {
 }
 
 .content {
-  margin: 15px;
+  margin: 30px;
 }
 </style>
