@@ -14,6 +14,7 @@ import HelloWorld from './components/HelloWorld.vue'
           <RouterLink to="/prop">Prop</RouterLink>
           <RouterLink to="/method">Method</RouterLink>
           <RouterLink to="/life-cycle">Life Cycle</RouterLink>
+          <RouterLink to="/todov1">Todo V1</RouterLink>
         </nav>
       </div>
     </header>

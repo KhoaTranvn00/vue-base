@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import HelloWorld from '../views/HelloWorld.vue'
 import Prop from '../views/Prop.vue'
 import Method from '../views/Method.vue'
+import TodoV1 from '../views/TodoV1.vue'
 import LifeCycle from '../views/LifeCycle.vue'
 
 const router = createRouter({
@@ -27,6 +28,11 @@ const router = createRouter({
       path: '/method',
       name: 'method',
       component: Method
+    },
+    {
+      path: '/todov1',
+      name: 'todov1',
+      component: TodoV1
     },
     {
       path: '/life-cycle',
