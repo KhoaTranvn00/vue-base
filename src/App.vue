@@ -15,6 +15,7 @@ import HelloWorld from './components/HelloWorld.vue'
           <RouterLink to="/method">Method</RouterLink>
           <RouterLink to="/life-cycle">Life Cycle</RouterLink>
           <RouterLink to="/todov1">Todo V1</RouterLink>
+          <RouterLink to="/pinia">Pinia</RouterLink>
         </nav>
       </div>
     </header>

@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import HelloWorld from '../views/HelloWorld.vue'
 import Prop from '../views/Prop.vue'
 import Method from '../views/Method.vue'
+import Pinia from '../views/Pinia.vue'
 import TodoV1 from '../views/TodoV1.vue'
 import LifeCycle from '../views/LifeCycle.vue'
 
@@ -28,6 +29,12 @@ const router = createRouter({
       path: '/method',
       name: 'method',
       component: Method
+    },
+    ,
+    {
+      path: '/pinia',
+      name: 'pinia',
+      component: Pinia
     },
     {
       path: '/todov1',
